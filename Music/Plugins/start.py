@@ -73,7 +73,7 @@ from pyrogram.types import (
 #        ],
 #    ]
 #)
-#welcome_captcha_group = 2
+welcome_captcha_group = 2
 
 
 @app.on_message(filters.new_chat_members, group=welcome_captcha_group)
